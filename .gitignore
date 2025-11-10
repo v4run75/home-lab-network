@@ -30,3 +30,8 @@ override.tf.json
 *.backup
 
 .terraform.lock.hcl
+
+# Terraform backend git files
+.terraform-backend-git.pid
+.terraform-backend-git.log
+git_http_backend.auto.tf
